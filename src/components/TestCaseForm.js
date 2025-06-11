@@ -43,7 +43,7 @@ const TestCaseForm = ({ onSubmit, onReset }) => {
           className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-black focus:border-black"
           required
         >
-          <option value="">Select a project</option>
+          <option value="">Selecciona tu proyecto</option>
           {PROJECTS.map((proj) => (
             <option key={proj.id} value={proj.id}>
               {proj.name}
@@ -62,7 +62,7 @@ const TestCaseForm = ({ onSubmit, onReset }) => {
         />
       </div>
       <div>
-        <label className="block text-sm font-medium text-gray-700">Test Cases (paste table)</label>
+        <label className="block text-sm font-medium text-gray-700">Test Cases (pega aquí la tabla generada por la IA)</label>
         <textarea
           value={testCases}
           onChange={(e) => setTestCases(e.target.value)}
@@ -74,14 +74,15 @@ const TestCaseForm = ({ onSubmit, onReset }) => {
       <div className="flex space-x-4">
         <button
           type="submit"
-          className="flex-1 bg-black text-white py-2 px-4 rounded-md hover:bg-gray-800 transition-colors"
+          className="bg-emerald-500 text-white py-1 px-3 rounded-md text-sm hover:bg-emerald-600 transition-colors flex-1" // Añadimos flex-1 para que ocupe espacio similar
         >
           Generate JSON
         </button>
         <button
           type="button"
           onClick={handleReset}
-          className="flex-1 bg-gray-200 text-gray-800 py-2 px-4 rounded-md hover:bg-gray-300 transition-colors"
+          // Cambiamos el color, texto y altura para que coincida con el botón de "Generate JSON"
+          className="bg-emerald-500 text-white py-1 px-3 rounded-md text-sm hover:bg-emerald-600 transition-colors flex-1" // Usamos las mismas clases de color y tamaño
         >
           Clear
         </button>
