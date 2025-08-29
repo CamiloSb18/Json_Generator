@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 const PROJECTS = [
   { name: 'Data Management (DMOE)', id: '10924' },
+  { name: 'KORS 2.0 (K20)', id: '13966' },
   { name: 'Cards & Acquiring (CAR)', id: '10809' },
   { name: 'Billpocket (BP)', id: '10786' },
   { name: 'Transfer & APMs (TYA)', id: '10803' },
