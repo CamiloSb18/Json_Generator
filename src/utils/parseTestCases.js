@@ -132,6 +132,7 @@ export const parseTestCases = (rawData, folderId, projectId) => {
         'alpha': '270726'
       }
     }
+    }
   };
 
   const config = PROJECT_CONFIG[projectId] || PROJECT_CONFIG['10924'];
