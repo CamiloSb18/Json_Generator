@@ -135,7 +135,7 @@ export const parseTestCases = (rawData, folderId, projectId) => {
     }
   };
 
-  const config = PROJECT_CONFIG[projectId] || PROJECT_CONFIG['10924'];
+  const config = PROJECT_CONFIG[String(projectId)] || PROJECT_CONFIG['10924'];
 
   const lines = rawData.split('\n').filter(line => line.trim() !== '');
   if (lines.length < 2) return [];
