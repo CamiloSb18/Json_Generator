@@ -167,7 +167,7 @@ export const parseTestCases = (rawData, folderId, projectId) => {
 
     testCases.push({
         // Acceder a los datos usando los encabezados en minúscula
-        summary: testCaseObj.sumary || testCaseObj.caso || '',
+        summary: testCaseObj.summary || testCaseObj.caso || '',
         precondition: testCaseObj.precondition || '',
         projectId: projectId,
         folderId: folderId,
