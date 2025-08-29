@@ -89,49 +89,51 @@ export const parseTestCases = (rawData, folderId, projectId) => {
       }
     },
     '10807': { // PLA
-      status: {
-        'done': '302412',
-        'in progress': '302411',
-        'to do': '302410'
-      },
-      priority: {
-        'blocker': '179219',
-        'high': '179220',
-        'medium': '179221',
-        'low': '179222'
-      },
-      labels: {
-        'ia': '254567',
-        'ia_amazonq': '219436',
-        'ia_chatgpt': '217193',
-        'ia_gemini': '254566',
-        'prod': '254565',
-        'qa': '217192',
-        'uat': '217194'
-      },
-    '13966': { // KORS 2.0
-      status: {
-        'done': '570343',
-        'in progress': '570342',
-        'to do': '570341'
-      },
-      priority: {
-        'blocker': '611574',
-        'high': '611575',
-        'medium': '611576',
-        'low': '611577'
-      },
-      labels: {
-        'ia': '270719',
-        'ia_amazonq': '270720',
-        'ia_chatgpt': '270721',
-        'ia_gemini': '270722',
-        'prod': '270725',
-        'qa': '270723',
-        'uat': '270724',
-        'alpha': '270726'
-      }
-    }
+  status: {
+    'done': '302412',
+    'in progress': '302411',
+    'to do': '302410'
+  },
+  priority: {
+    'blocker': '179219',
+    'high': '179220',
+    'medium': '179221',
+    'low': '179222'
+  },
+  labels: {
+    'ia': '254567',
+    'ia_amazonq': '219436',
+    'ia_chatgpt': '217193',
+    'ia_gemini': '254566',
+    'prod': '254565',
+    'qa': '217192',
+    'uat': '217194'
+  }
+},
+
+'13966': { // KORS 2.0 
+  status: {
+    'done': '570343',
+    'in progress': '570342',
+    'to do': '570341'
+  },
+  priority: {
+    'blocker': '611574',
+    'high': '611575',
+    'medium': '611576',
+    'low': '611577'
+  },
+  labels: {
+    'ia': '270719',
+    'ia_amazonq': '270720',
+    'ia_chatgpt': '270721',
+    'ia_gemini': '270722',
+    'prod': '270725',
+    'qa': '270723',
+    'uat': '270724',
+    'alpha': '270726'
+  }
+}
     }
   };
 
