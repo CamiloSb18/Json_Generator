@@ -109,7 +109,7 @@ export const parseTestCases = (rawData, folderId, projectId) => {
         'qa': '217192',
         'uat': '217194'
       },
-    '13966': { // KORS
+    '13966': { // KORS 2.0
       status: {
         'done': '570343',
         'in progress': '570342',
