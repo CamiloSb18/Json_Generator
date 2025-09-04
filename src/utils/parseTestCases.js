@@ -26,7 +26,7 @@ export const parseTestCases = (rawData, folderId, projectId) => {
       status: {
         'done': '302403',
         'in progress': '302402',
-        'to do': '302401'
+        'to do': '111111'
       },
       priority: {
         'blocker': '179215',
